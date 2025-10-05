@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Context</h1>
+    <div class="controls">
+        <button id="session-toggle-button">Start Session</button>
+        <button id="summarize-button" disabled>Summarize Session</button>
+    </div>
+    <p>Status: <span id="status-display">Inactive</span></p>
+    <hr>
+    <div id="summary-container"></div>
+    <div id="log-container"></div>
+    <script src="marked.umd.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
